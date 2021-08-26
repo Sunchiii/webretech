@@ -78,17 +78,17 @@
           horizontal
           scroll-target="#hide-on-scroll-example"
         >
-          <v-btn color="#00999e" text>
+          <v-btn color="#00999e" text to="/">
             <span class="d-none d-sm-flex">Home</span>
             <v-icon class="mx-1">mdi-home</v-icon>
           </v-btn>
 
-          <v-btn color="#00999e" text>
+          <v-btn color="#00999e" text to="/Product">
             <span class="d-none d-sm-flex">Product</span>
             <v-icon  class="mx-1">mdi-check-decagram</v-icon>
           </v-btn>
 
-          <v-btn color="#00999e" text>
+          <v-btn color="#00999e" text to="/Service">
             <span class="d-none d-sm-flex">Service</span>
             <v-icon  class="mx-1">mdi-braille</v-icon>
           </v-btn>

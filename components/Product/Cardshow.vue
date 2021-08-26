@@ -1,11 +1,11 @@
 <template>
-  <div class="d-flex align-center justify-center">
+  <div class="d-flex flex-md-row flex-column align-center justify-center">
     <div class="bleft">
     <v-card color="#7fccce" elevation="0" class="rounded-xl ">
       <div ><v-img :src="mb1" contain></v-img></div>
     </v-card>
     </div>
-    <div class="bright ml-n10">
+    <div class="bright ml-md-n10 ml-0">
       <v-card
         class="
           rounded-xl
@@ -30,8 +30,8 @@
           eget lacinia odio sem nec elit. Nullam id dolor id nibh ultricies
           vehicula.
         </div>
-        <div class="ma-5 d-flex">
-          <v-card width="150" class="rounded-xl px-5 py-1 bb">
+        <div class="my-2 d-flex flex-md-row flex-column wit justify-md-space-around align-center">
+          <v-card width="150" class="rounded-xl px-5 py-1 bb my-2 my-md-0">
             <v-row no-gutters>
               <v-col cols="4"><v-img :src="icon" width="30"></v-img></v-col>
               <v-col cols="8">
@@ -40,7 +40,7 @@
               </v-col>
             </v-row>
           </v-card>
-          <v-card width="150" class="rounded-xl mx-10 px-5 py-1 bb">
+          <v-card width="150" class="rounded-xl px-5 py-1 bb">
             <v-row no-gutters>
               <v-col cols="4"
                 ><v-img :src="iconapple" width="30"></v-img
@@ -70,7 +70,9 @@ export default {
 </script>
 
 <style scoped>
-
+.wit{
+  width: 100%;
+}
 .bleft{
   width: 40%;
 }
@@ -87,6 +89,21 @@ export default {
 @media only screen and (max-width:800px) {
   
 }
-/* @media only screen and (max-width:500px) {
-  } */
+@media only screen and (max-width:500px) {
+  .bleft{
+    width: 100%;
+  }
+  .bright{
+    width: 100%;
+  }
+  }
+
+
+
+
+
+
+
+
+
 </style>
