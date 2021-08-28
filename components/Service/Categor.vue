@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="py-10">
     <v-row class="teal--text text--lighten-1">
       <v-col cols="12" md="5" class="d-flex align-center">
         <div>
