@@ -37,6 +37,7 @@
                     </v-col>
                 </v-row>
             </div>
+            <div class="subtitle-1 text-uppercase text-center" ><NuxtLink to="/" class="white--text ">-- Please select the service you need and contact us now!! --</NuxtLink></div>
         </v-container>
     </div>
 </template>
@@ -58,6 +59,9 @@ export default {
 .fColor {
   background-color: #00999e;
   color: #fff;
+}
+.textDecoractionNone{
+    text-decoration: none;
 }
 /* .textAlign{
     text-align: start;
