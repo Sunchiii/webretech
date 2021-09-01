@@ -7,6 +7,7 @@
     <Sysdev />
     <Train />
     <Tech />
+    <Instant />
   </div>
 </template>
 <script>
@@ -15,6 +16,7 @@ import Cate from '../components//Service/Categor'
 import Sysdev from '../components/Service/Sysdev.vue'
 import Train from '../components/Service/Trainning.vue'
 import Tech from '../components/Service/Techmarket.vue'
+import Instant from '../components/Service/Instant.vue'
 export default {
   layout: 'topandfoot',
   components:{
@@ -22,7 +24,8 @@ export default {
     Cate,
     Sysdev,
     Train,
-    Tech
+    Tech,
+    Instant
   },
   data() {
     return {}

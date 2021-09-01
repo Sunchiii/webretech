@@ -7,7 +7,7 @@
             <div class="title mx-1">The</div>
             <div class="textHero font-weight-bold">BUSINESS</div>
             <div class="textHero font-weight-bold">PROFILE.</div>
-            <div class="subtitle">" We Trive To Change "</div>
+            <div class="subtitle ">" We Trive To Change "</div>
             <v-btn color="#00999e" class="rounded-xl ma-5" outlined>Our Product</v-btn>
           </div>
         </v-col>
@@ -60,6 +60,7 @@ export default {
     -moz-animation-duration:1s;
     animation-duration:1s;
 }
+
 
 
 
