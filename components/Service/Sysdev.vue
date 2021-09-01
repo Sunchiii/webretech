@@ -1,6 +1,7 @@
 <template>
     <div class="fColor py-16">
         <v-container>
+            <div class="caption text-center">#01</div>
             <div class="subtitle-1 text-uppercase text-center">-- System Development --</div>
             <div class="headline text-center my-4">we enable your business to leverage the benefits of IT consulting and software development services that adapt seamlessly to your project requirements and business neesd.</div>
             <div class="my-10">

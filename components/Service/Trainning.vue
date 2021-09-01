@@ -1,5 +1,5 @@
 <template>
-    <div class="textColor">
+    <div class="textColor my-5">
         <v-container>
             <v-row>
                 <v-col cols="12" md="6">
@@ -9,6 +9,7 @@
                 </v-col>
                 <v-col cols="12" md="6" class="d-flex align-center">
                     <div>
+                        <div class="caption textAlign">#02</div>
                         <div class="title text-uppercase textAlign">-- Trainning --</div>
                         <div class="display-2 textAlign my-4">Our IT training helps you solve real-world practical computing issues and practice for certification exams</div>
                         <div>
