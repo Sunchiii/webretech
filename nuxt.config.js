@@ -25,6 +25,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: "./plugins/vue2-google-maps.js" }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -40,6 +41,10 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    ['nuxt-gmaps', {
+      key: 'AIzaSyBt7ewxNoPIZOLg86RKKUiY0scBilVdELI',
+      // you can use libraries: ['places']
+    }]
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -66,5 +71,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    vendor: ["vue2-google-maps"]
   }
+
 }
