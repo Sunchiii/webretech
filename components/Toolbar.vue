@@ -13,7 +13,7 @@
                 <v-tab  to="/"><v-icon size="20" class="mx-1">mdi-home</v-icon> Home</v-tab>
                 <v-tab to="/Product"><v-icon size="20" class="mx-1">mdi-check-decagram</v-icon> Product</v-tab>
                 <v-tab to="/Service"><v-icon size="20" class="mx-1">mdi-braille</v-icon> Service</v-tab>
-                <v-tab to=""><v-icon size="20" class="mx-1">mdi-account-group</v-icon> About</v-tab>
+                <v-tab to="/about"><v-icon size="20" class="mx-1">mdi-account-group</v-icon> About</v-tab>
               </v-tabs>
             </template>
           </v-col>
