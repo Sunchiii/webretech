@@ -17,6 +17,7 @@
                   label="Name"
                   required
                   outlined
+                  color="teal"
                 ></v-text-field>
               </v-col>
               <v-col cols="12" md="6">

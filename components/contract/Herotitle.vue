@@ -2,7 +2,8 @@
   <div>
     <div class="topbg d-flex align-center">
       <v-container class="white--text ">
-        <div class="display-3  font-weight-bold text-center">Get in Touch</div>
+        <div class="display-3  font-weight-bold text-center">Our Contract Us</div>
+        <div class="subtitle-1 text-center">get in touch</div>
       </v-container>
     </div>
     <div class="botbg"></div>
