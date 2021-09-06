@@ -1,6 +1,6 @@
 <template>
-    <div style="height:100%;">
-        <v-card class="rounded-xl py-5 px-5" height="100%">
+    <div>
+        <v-card class="rounded-xl py-5 px-5">
             <div>
                 <div class="d-flex justify-center">
                     <v-img :width="wh" :height="wh"  :src="Logo" contain></v-img>
@@ -8,7 +8,7 @@
                 <div>
                     <div>{{title}}</div>
                 </div>
-                <div class="overflow-hidden">
+                <div>
                     <div>{{subtitle}}</div>
                 </div>
                 <div>
@@ -23,9 +23,9 @@ export default {
     data() {
         return {
             wh:50,
-            Logo:require('../../../assets/image/CardSV/sysdev.png'),
+            Logo:require('../../../assets/image/CardSV/pos.png'),
             title:'System Development',
-            subtitle:'We enable your business to leverage the benefits of IT development services that adapt seamlessly to your project requirements ',
+            subtitle:'Unable to write into user settings. Please open the user settings to correct errors/warnings in it and try again.',
         }
     },
 }
