@@ -1,14 +1,9 @@
 <template>
-  <div class="con">
-    <v-container>
-      <div class="context">
-        <v-card class="pa-10 rounded-xl teal--text " elevation="0">
-          <div class="display-4 text-center font-weight-bold">ABOUT</div>
-          <div class="display-4 font-weight-bold text-center">OUR COMPANY</div>
-          <div class="text-center subtitle-1">Established in 2019</div>
-        </v-card>
-      </div>
-    </v-container>
+  <div>
+    <div class="context">
+      <h1>Pure Css Animated Background</h1>
+    </div>
+
     <div class="area">
       <ul class="circles">
         <li></li>
@@ -27,10 +22,6 @@
 </template>
 
 <style scoped>
-.con{
-  position: relative;
-  margin-top: -25px;
-}
 .context {
   position: absolute;
   top: 50%;
@@ -45,7 +36,7 @@
 }
 
 .area {
-  background: #05d2da;
+  background: #00999e;
   background: -webkit-linear-gradient(to left, #8f94fb, #00999e);
   width: 100%;
   height: 600px;
@@ -66,7 +57,7 @@
   list-style: none;
   width: 20px;
   height: 20px;
-  background: rgba(255, 255, 255);
+  background: rgba(255, 255, 255, 0.2);
   animation: animate 25s linear infinite;
   bottom: -150px;
 }
@@ -147,13 +138,13 @@
 }
 
 @keyframes animate {
-  50% {
+  0% {
     transform: translateY(0) rotate(0deg);
     opacity: 1;
     border-radius: 0;
   }
 
-  0% {
+  100% {
     transform: translateY(-1000px) rotate(720deg);
     opacity: 0;
     border-radius: 50%;

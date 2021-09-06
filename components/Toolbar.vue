@@ -4,7 +4,7 @@
       <v-container class="pt-0 pb-0 F">
         <v-row>
           <v-col cols="6" md="2">
-            <v-img :src="Logo" height="50" width="100" contain></v-img>
+            <Nuxt-link to="/"><v-img :src="Logo" height="50" width="100" contain></v-img></Nuxt-link>
           </v-col>
           <v-col cols="6" md="8" class="d-none d-md-flex">
             <template>
