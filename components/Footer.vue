@@ -43,7 +43,7 @@
         </v-col>
         <v-col cols="12" sm="3">
           <div class="title white--text d-flex align-center justify-center justify-sm-start">RETECH SOLE.CO.LTD</div>
-          <div class="body-2 white--text d-flex align-center justify-center justify-sm-start"> Minima iure quaerat doloribus ea numquam eum sapiente pariatur, mollitia earum nobis fugit quis ipsum aperiam adipisci consectetur nemo soluta placeat! Suscipit!</div>
+          <div class="body-2 white--text d-flex align-center justify-center justify-sm-start"> We thrive on change</div>
         </v-col>  
       </v-row>
     </v-container>

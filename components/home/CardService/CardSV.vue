@@ -1,17 +1,17 @@
 <template>
     <div style="height:100%;">
-        <v-card class="rounded-xl py-5 px-5" height="100%">
+        <v-card class="rounded-xl py-5 px-5 teal--text" height="100%">
             <div>
                 <div class="d-flex justify-center">
                     <v-img :width="wh" :height="wh"  :src="Logo" contain></v-img>
                 </div>
-                <div>
+                <div class="my-2 font-weight-bold">
                     <div>{{title}}</div>
                 </div>
                 <div class="overflow-hidden">
-                    <div>{{subtitle}}</div>
+                    <div class="subtitle-2">{{subtitle}}</div>
                 </div>
-                <div>
+                <div class="my-2">
                     <v-btn color="#00999e" class="white--text rounded-xl">READ MORE</v-btn>
                 </div>
             </div>

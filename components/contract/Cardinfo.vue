@@ -10,17 +10,14 @@
               :cluster="{ options: { styles: clusterStyle } }"
               :center="{ lat: locations[0].lat, lng: locations[0].lng }"
               :options="{ fullscreenControl: true, styles: mapStyle }"
-              :zoom="7"
+              :zoom="15"
             >
               <GMapMarker
                 v-for="location in locations"
                 :key="location.id"
                 :position="{ lat: location.lat, lng: location.lng }"
                 :options="{
-                  icon:
-                    location === currentLocation
-                      ? pins.selected
-                      : pins.notSelected,
+                  icon:pins.selected
                 }"
                 @click="currentLocation = location"
               >
@@ -80,20 +77,20 @@ export default {
       circleOptions: {},
       locations: [
         {
-          lat: 44.933076,
-          lng: 15.629058,
+          lat: 17.925277058744204,
+          lng: 102.6254357016234,
         },
-        {
-          lat: 45.815,
-          lng: '15.9819',
-        },
-        {
-          lat: '45.12',
-          lng: '16.21',
-        },
+        // {  // can add another maker
+        //   lat: 17.815,
+        //   lng: '102.9819',
+        // },
+        // {
+        //   lat: '17.12',
+        //   lng: '102.21',
+        // },
       ],
       pins: {
-        selected: 'data:image/png;base64,iVBORw0KGgo...',
+        selected: require('../../assets/image/marker.png'),
         notSelected: 'data:image/png;base64,iVBORw0KGgo...',
       },
       mapStyle: [],

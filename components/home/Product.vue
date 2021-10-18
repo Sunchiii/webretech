@@ -5,7 +5,6 @@
                 <div class="subtitle-1 text-center mb-5">Product Sample</div>
                 <v-carousel v-model="carousel" hide-delimiter-background interval="5000" cycle show-arrows-on-hover>
                     <v-carousel-item><Item1 /></v-carousel-item>
-                    <v-carousel-item><Item1 /></v-carousel-item>
                 </v-carousel>
             </div>
         </v-container>

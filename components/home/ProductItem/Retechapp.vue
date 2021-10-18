@@ -7,19 +7,17 @@
         </div>
       </v-col>
       <v-col cols="12" sm="6" class="px-md-0 px-1">
-        <div>
-          <div class="font-size font-weight-bold text-align">Retech.Sole</div>
-          <div class="subtitle-1 text-align">
-            application for new prospects in finding information, learning and
+        <div class="d-flex flex-column justify-center" style="height:100%;">
+          <div class="font-size font-weight-bold text-align">ReTech Sole Co.,Ltd</div>
+          <div class="subtitle-1 text-align"> This is the main fan page of the company you can contact and talk to us directly. which we are always ready To make you impressed with our services.application for new prospects in finding information, learning and
             skills and want to make product software or be a POS to manage in
-            bussiness and other uses as needed
-          </div>
-          <div class="subtitle-1 text-align">
-            We enable your business to leverage the benefits of IT consulting
-            and software development services that adapt
+            bussiness and other uses as neede
           </div>
           <div class="ma-12 d-flex">
-              <v-card width="150" class="rounded-xl px-5 py-1 bb">
+              <div>
+                  <a href="https://web.facebook.com/retechsole" class="white--text" target="_blan"><span class="d-flex align-center rounded-xl overflow-hidden pa-2" style="border:1px solid;"><v-img :src="facebook" width="50"></v-img><span class="mx-2"> <\ click to see Our facebook fan page</span></span></a>
+              </div>
+              <!-- <v-card width="150" class="rounded-xl px-5 py-1 bb">
                   <v-row no-gutters>
                       <v-col cols="4"><v-img :src="icon" width="30"></v-img></v-col>
                       <v-col cols="8">
@@ -35,7 +33,7 @@
                           <div style="font-size:8px;color:white;">Download on the</div>
                           <div style="font-size:12px;color:white;">Google Play</div>
                       </v-col>
-                  </v-row>
+                  </v-row> -->
               </v-card>
           </div>
         </div>
@@ -50,7 +48,8 @@ export default {
     return {
       RTapp: require('../../../assets/image/slideProduct/sunasa02.png'),
       icon: require('../../../assets/image/slideProduct/google_play.avif'),
-      iconapple: require('../../../assets/image/slideProduct/apple_icon.avif')
+      iconapple: require('../../../assets/image/slideProduct/apple_icon.avif'),
+      facebook: require('../../../assets/image/slideProduct/facebookicon.webp')
     }
   },
 }
@@ -58,6 +57,9 @@ export default {
 <style scoped>
 .bb{
     background-color: #000;
+}
+.bg-teal{
+  background-color: #00999e;
 }
 .sizeIm{
     width: 80%;
