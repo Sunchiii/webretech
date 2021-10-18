@@ -119,10 +119,10 @@
 export default {
   data() {
     return {
-      kataiy: require('../../assets/image/about/kataiy.jpg'),
-      kataii: require('../../assets/image/about/kataii.jpg'),
-      khanthanou: require('../../assets/image/about/khanthanou.jpg'),
-      piti: require('../../assets/image/about/piti.jpg'),
+      kataiy: require('../../assets/image/about/aiytaiy.avif'),
+      kataii: require('../../assets/image/about/user.avif'),
+      khanthanou: require('../../assets/image/about/user.avif'),
+      piti: require('../../assets/image/about/user.avif'),
     }
   },
 }

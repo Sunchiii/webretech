@@ -13,7 +13,7 @@
 export default {
    data() {
       return {
-         pic:require('../../assets/image/Product/sunasa02.png')
+         pic:require('../../assets/image/Product/sunasa02.webp')
       }
    },
 }

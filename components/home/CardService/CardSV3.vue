@@ -23,7 +23,7 @@ export default {
     data() {
         return {
             wh:50,
-            Logo:require('../../../assets/image/CardSV/marketing.png'),
+            Logo:require('../../../assets/image/CardSV/marketing.webp'),
             title:'System Development',
             subtitle:'Unable to write into user settings. Please open the user settings to correct errors/warnings in it and try again.',
         }

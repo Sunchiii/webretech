@@ -60,10 +60,10 @@
 export default {
     data(){
         return{
-            market:require('@/assets/image/CardSV/marketing.png'),
-            pos:require('@/assets/image/CardSV/pos.png'),
-            sysdev:require('@/assets/image/CardSV/sysdev.png'),
-            train:require('@/assets/image/CardSV/train.png')
+            market:require('@/assets/image/CardSV/marketing.webp'),
+            pos:require('@/assets/image/CardSV/pos.webp'),
+            sysdev:require('@/assets/image/CardSV/sysdev.webp'),
+            train:require('@/assets/image/CardSV/train.webp')
         }
     }
 }

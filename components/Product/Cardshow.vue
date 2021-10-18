@@ -61,9 +61,9 @@
 export default {
   data() {
     return {
-      mb1: require('../../assets/image/Product/sunasa02.png'),
-      icon: require('../../assets/image/slideProduct/google_play.png'),
-      iconapple: require('../../assets/image/slideProduct/apple_icon.png'),
+      mb1: require('../../assets/image/Product/sunasa02.webp'),
+      icon: require('../../assets/image/slideProduct/google_play.avif'),
+      iconapple: require('../../assets/image/slideProduct/apple_icon.avif'),
     }
   },
 }

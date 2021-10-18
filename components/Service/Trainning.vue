@@ -50,7 +50,7 @@
 export default {
     data(){
         return{
-            train:require('../../assets/image/Service/train.png')
+            train:require('../../assets/image/Service/train.avif')
         }
     }
 }

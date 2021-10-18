@@ -43,12 +43,12 @@
 export default {
     data() {
         return {
-            up:require('../../assets/image/customXpartner/upskill_banner.png'),
-            bcs:require('../../assets/image/customXpartner/bcs_banner.png'),
-            systory:require('../../assets/image/customXpartner/systory_banner.png'),
-            histing:require('../../assets/image/customXpartner/hostinger_banner.png'),
-            kidbright:require('../../assets/image/customXpartner/kidbright_banner.png'),
-            rope:require('../../assets/image/customXpartner/rope_banner.png')
+            up:require('../../assets/image/customXpartner/upskill_banner.avif'),
+            bcs:require('../../assets/image/customXpartner/bcs_banner.avif'),
+            systory:require('../../assets/image/customXpartner/systory_banner.avif'),
+            histing:require('../../assets/image/customXpartner/hostinger_banner.avif'),
+            kidbright:require('../../assets/image/customXpartner/kidbright_banner.avif'),
+            rope:require('../../assets/image/customXpartner/rope_banner.avif')
         }
     },
 }

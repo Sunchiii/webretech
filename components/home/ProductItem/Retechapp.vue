@@ -49,8 +49,8 @@ export default {
   data() {
     return {
       RTapp: require('../../../assets/image/slideProduct/sunasa02.png'),
-      icon: require('../../../assets/image/slideProduct/google_play.png'),
-      iconapple: require('../../../assets/image/slideProduct/apple_icon.png')
+      icon: require('../../../assets/image/slideProduct/google_play.avif'),
+      iconapple: require('../../../assets/image/slideProduct/apple_icon.avif')
     }
   },
 }

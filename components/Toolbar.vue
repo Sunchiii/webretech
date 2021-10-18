@@ -61,7 +61,7 @@ export default {
     return {
       TopiconSize: 20,
       Topwhite: 'white',
-      Logo: require('~/assets/image/retech.png'),
+      Logo: require('~/assets/image/retech.avif'),
       height: 50,
       menutab: null,
     }

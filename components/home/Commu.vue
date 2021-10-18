@@ -37,9 +37,9 @@
 export default {
     data() {
         return {
-            stack:require('../../assets/image/stack_pic.PNG'),
-            retech:require('../../assets/image/retech.png'),
-            champa:require('../../assets/image/champa.jpg')
+            stack:require('../../assets/image/stack_pic.avif'),
+            retech:require('../../assets/image/retech.avif'),
+            champa:require('../../assets/image/champa.avif')
         }
     },
 }

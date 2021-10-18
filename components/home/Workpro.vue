@@ -33,7 +33,7 @@
 export default {
     data() {
         return {
-            Workp:require('../../assets/image/Workp.png')
+            Workp:require('../../assets/image/Workp.avif')
         }
     },
 }

@@ -13,7 +13,7 @@
 </template>
 <style scoped>
 .topser {
-  background-image: url('../../assets/image/Service/tt.jpg');
+  background-image: url('../../assets/image/Service/tt.avif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

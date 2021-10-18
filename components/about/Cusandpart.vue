@@ -16,21 +16,21 @@ export default {
   data() {
     return {
       picture: [
-        { pic: require('../../assets/image/customXpartner/upskill_banner.png') },
-        { pic: require('../../assets/image/customXpartner/bcs_banner.png') },
+        { pic: require('../../assets/image/customXpartner/upskill_banner.avif') },
+        { pic: require('../../assets/image/customXpartner/bcs_banner.avif') },
         {
-          pic: require('../../assets/image/customXpartner/systory_banner.png'),
+          pic: require('../../assets/image/customXpartner/systory_banner.avif'),
         },
         {
-          pic: require('../../assets/image/customXpartner/hostinger_banner.png'),
+          pic: require('../../assets/image/customXpartner/hostinger_banner.avif'),
         },
-        { pic: require('../../assets/image/customXpartner/rope_banner.png') },
-        { pic: require('../../assets/image/customXpartner/back.jpg') },
-        { pic: require('../../assets/image/customXpartner/hss.gif') },
-        { pic: require('../../assets/image/customXpartner/kolao.png') },
-        { pic: require('../../assets/image/customXpartner/pks.png') },
+        { pic: require('../../assets/image/customXpartner/rope_banner.avif') },
+        { pic: require('../../assets/image/customXpartner/back.avif') },
+        { pic: require('../../assets/image/customXpartner/hss.avif') },
+        { pic: require('../../assets/image/customXpartner/kolao.avif') },
+        { pic: require('../../assets/image/customXpartner/pks.avif') },
         {
-          pic: require('../../assets/image/customXpartner/sueksakila.png'),
+          pic: require('../../assets/image/customXpartner/sueksakila.avif'),
         },
       ],
     }

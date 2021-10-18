@@ -46,12 +46,12 @@
 export default {
     data(){
         return{
-            webdev:require('../../assets/image/CardSV/webdev.png'),
-            webdesign:require('../../assets/image/CardSV/webdesign.png'),
-            mobiledev:require('../../assets/image/CardSV/mobiledev.png'),
-            iot:require('../../assets/image/CardSV/iot.png'),
-            database:require('../../assets/image/CardSV/database.png'),
-            windows:require('../../assets/image/CardSV/windowsdev.png')
+            webdev:require('../../assets/image/CardSV/webdev.webp'),
+            webdesign:require('../../assets/image/CardSV/webdesign.webp'),
+            mobiledev:require('../../assets/image/CardSV/mobiledev.webp'),
+            iot:require('../../assets/image/CardSV/iot.webp'),
+            database:require('../../assets/image/CardSV/database.webp'),
+            windows:require('../../assets/image/CardSV/windowsdev.webp')
         }
     }
 }

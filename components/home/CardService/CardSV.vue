@@ -23,7 +23,7 @@ export default {
     data() {
         return {
             wh:50,
-            Logo:require('../../../assets/image/CardSV/sysdev.png'),
+            Logo:require('../../../assets/image/CardSV/sysdev.webp'),
             title:'System Development',
             subtitle:'We enable your business to leverage the benefits of IT development services that adapt seamlessly to your project requirements ',
         }

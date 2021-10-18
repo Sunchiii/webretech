@@ -25,7 +25,7 @@
 export default {
     data() {
         return {
-            HeroBanner:require('../../assets/image/hero_banner.png')
+            HeroBanner:require('../../assets/image/hero_banner.avif')
         }
     },
 }
